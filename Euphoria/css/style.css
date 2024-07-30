@@ -556,6 +556,7 @@ main {
     -webkit-transition: all 0.1s;
     transition: all 0.1s;
     background-color: rgb(177, 201, 228);
+    z-index: 5;
   }
 }
 .menu-header--active {
