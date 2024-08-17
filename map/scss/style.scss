@@ -1,0 +1,72 @@
+@use "sass:math";
+
+// Мінімальна ширина сторінки
+$minWidth: 320;
+// Ширина полотна (макету)
+$maxWidth:0;
+// Ширина обмежуючого контейнера (0 = немає обмеження)
+$maxWidthContainer:0 ;
+// Загальний відступ у контейнера
+// (30 = по 15px ліворуч і праворуч, 0 = немає відступу)
+$containerPadding: 0;
+// Ширина спрацьовування першого брейкпоінту
+$containerWidth: $maxWidthContainer + $containerPadding;
+@import "_reset.scss";
+@import "_funktions.scss";
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+	
+}
+.header {
+	width: 100%;
+	text-align: center;
+	padding: 30px 10px;
+	font-style: italic;
+	font-size: 30px;
+}
+.main {
+
+	width: 100%;
+		// .main__img
+
+		&__img {
+			width: 100%;
+			
+
+		}
+
+		// .main__foto
+
+		&__foto {
+			max-width: 100%;
+		}
+
+		// .main__items
+
+		&__items {
+			display: flex;
+			flex-direction: column;
+
+		}
+
+		// .main__item
+
+		&__item {
+			height: 100vh;
+			font-size: 20px;
+			padding: 0 20px;
+			line-height: 1.5;
+			& h2 {
+				text-align: center;
+				font-size: 30px;
+				margin-bottom: 30px;
+				line-height: 1.2;
+			}
+		}
+}
+.footer {
+}
