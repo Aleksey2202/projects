@@ -268,7 +268,7 @@ function initProducts(data) {
             productTemplate += `<a href="product.html" class="item__logo">`;
             productTemplate += `<img src="${productItem.image}" alt="#" class="item__img">`;
             productTemplate += `<a href="#" class="item__heart">`;
-            productTemplate += `<img src="/img/icons/heart2.svg" alt="#" class="item__like-heart">`;
+            productTemplate += `<img src="img/icons/heart2.svg" alt="#" class="item__like-heart">`;
             productTemplate += `</a>`;
             productTemplate += `</a>`;
             productTemplate += `</div>`;    
