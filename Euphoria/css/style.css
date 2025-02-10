@@ -3386,7 +3386,7 @@ textarea {
 }
 .info-product__comment::before {
   content: "";
-  background: url("..//img/icons/comment.png") no-repeat;
+  background: url("../img/icons/comment.png") no-repeat;
   background-size: contain;
   width: 1.25rem;
   height: 1.25rem;
